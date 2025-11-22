@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXO CHECKPOINT</title>
+</head>
+
+<body>
+    <!--navigation-->
+    <div style="width: 1250px;height: 50px;background-color: antiquewhite; position: fixed;top: 0px;">
+        <nav style="text-align: right;padding: 20px ;">
+            <a href="#àpropos" style="margin-right: 30px;">à propos</a>
+            <a href="#travail" style="margin-right: 30px;">Travail</a>
+            <a href="#CV" style="margin-right: 30px;">CV</a>
+            <a href="#contact" style="margin-right: 30px;">Contact</a>
+        </nav>
+    </div>
+    <!--section à propos-->
+    <section id="àpropos" style="width: 1250px;height: 50px;margin-bottom: 250px;">
+        <div style="background-color: bisque;border: 1px solid green;padding: 10px;margin-top: 50px;">
+            <h1>À Propos</h1>
+            <div>
+                <h2>Qui suis-je ?</h2>
+                <p>Je suis un professionnel passionné par mon métier avec plus de 5 ans d'expérience dans le domaine de l'energie renouvelable.</p>
+                <p>je suis un technicien superieur en genie thermique et energie renouvelable</p>
+                <p>Mon objectif est de créer des solutions innovantes qui répondent aux besoins en energie de chaque client .</p>
+            </div>
+        </div>
+
+    </section>
+    <!--section travail-->
+    <section id="travail" style="width: 1250px;height: 50px;margin-bottom: 250px;">
+        <div style="background-color: rgb(170, 106, 27);border: 1px solid green;padding: 10px;margin-top: 50px;">
+            <h1>Mes Projets</h1>
+            <p>Découvrez quelques-uns de mes projets récents :</p>
+            <h3>Site E-commerce</h3>
+            <p>Développement d'une plateforme e-commerce complète avec système de paiement sécurisé.</p>
+            <p><strong>Technologies :</strong> React, Node.js, MongoDB</p>
+        </div>
+
+
+    </section>
+    <!--section CV-->
+    <section id="CV" style="width: 1250px;height: 50px;margin-bottom: 250px;">
+        <div style="background-color:blanchedalmond;border: 1px solid green;padding: 10px;margin-top: 50px;">
+            <h1>Mon CV</h1>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Competeces</th>
+                        <th>Experience Proffessionel</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Solaire photovoltaique<br>Solaire Thermique<br>Froid et climatisation<br>Electricité batiment</td>
+                        <td>Stage d'une durée de 2 mois au service de maintenance a l'hopital regional de saint-louis</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <section id="contact" style="width: 1250px;height: 50px;">
+        <div style="background-color:burlywood;border: 1px solid green;padding: 10px;margin-top: 50px;">
+            <h1>Contact</h1>
+            <p>N'hésitez pas à me contacter pour discuter de votre projet !</p>
+            <label for="nom">Nom complet *</label>
+            <input type="text" id="nom" name="nom" required><br><br>
+            <div> <label for="email">Email *</label>
+                <input type="email" id="email" name="email" required></div><br>
+            <label for="sujet">Sujet</label>
+            <select id="sujet" name="sujet">
+                        <option value="devis">Demande de devis</option>
+                        <option value="collaboration">Proposition de collaboration</option>
+                        <option value="information">Demande d'information</option>
+                        <option value="autre">Autre</option>
+                    </select><br><br>
+            <label for="message">Message *</label>
+            <textarea id="message" name="message" placeholder="Décrivez votre projet ou votre demande..." required></textarea>
+        </div>
+
+    </section>
+
+
+</body>
+
+</html>
