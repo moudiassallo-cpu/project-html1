@@ -1,0 +1,66 @@
+body {
+    font-family: "roboto";
+}
+
+.navP {
+    display: inline;
+    width: 100%;
+    height: 2%;
+    background-color: rgb(87, 93, 205);
+    position: fixed;
+    top: 0px;
+    text-align: right;
+    padding: 20px;
+}
+
+a:hover {
+    color: rgb(6, 223, 57);
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+    border-radius: 30%;
+}
+
+.navF {
+    margin-right: 30px;
+}
+
+.secAP {
+    text-align: center;
+    width: 100%;
+    height: 100%px;
+    background-color: rgb(195, 64, 27);
+    border: 1px solid green;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.secT {
+    text-align: center;
+    width: 100%;
+    height: 100%px;
+    background-color: rgb(170, 106, 27);
+    border: 1px;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.secCV {
+    text-align: center;
+    width: 100%;
+    height: 100%px;
+    background-color: blanchedalmond;
+    border: 1px solid green;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.secCON {
+    text-align: center;
+    width: 100%;
+    height: 100%px;
+    background-color: rgb(112, 200, 206);
+    border: 1px solid green;
+    padding: 10px;
+    margin-top: 50px;
+}

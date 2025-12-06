@@ -5,46 +5,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EXO CHECKPOINT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Wet+Paint&family=Science+Gothic:wght@100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <!--navigation-->
-    <div style="width: 1250px;height: 50px;background-color: antiquewhite; position: fixed;top: 0px;">
-        <nav style="text-align: right;padding: 20px ;">
-            <a href="#àpropos" style="margin-right: 30px;">à propos</a>
-            <a href="#travail" style="margin-right: 30px;">Travail</a>
-            <a href="#CV" style="margin-right: 30px;">CV</a>
-            <a href="#contact" style="margin-right: 30px;">Contact</a>
+    <div>
+        <nav class="navP">
+            <a href="#àpropos" class="navF">à propos</a>
+            <a href="#travail" class="navF">Travail</a>
+            <a href="#CV" class="navF">CV</a>
+            <a href="#contact" class="navF">Contact</a>
         </nav>
     </div>
     <!--section à propos-->
-    <section id="àpropos" style="width: 1250px;height: 50px;margin-bottom: 250px;">
-        <div style="background-color: bisque;border: 1px solid green;padding: 10px;margin-top: 50px;">
-            <h1>À Propos</h1>
-            <div>
-                <h2>Qui suis-je ?</h2>
-                <p>Je suis un professionnel passionné par mon métier avec plus de 5 ans d'expérience dans le domaine de l'energie renouvelable.</p>
-                <p>je suis un technicien superieur en genie thermique et energie renouvelable</p>
-                <p>Mon objectif est de créer des solutions innovantes qui répondent aux besoins en energie de chaque client .</p>
-            </div>
+    <section id="àpropos" class="secAP">
+        <h1>À Propos</h1>
+        <div>
+            <h2>Qui suis-je ?</h2>
+            <p>Je suis un professionnel passionné par mon métier avec plus de 5 ans d'expérience dans le domaine de l'energie renouvelable.</p>
+            <p>je suis un technicien superieur en genie thermique et energie renouvelable</p>
+            <p>Mon objectif est de créer des solutions innovantes qui répondent aux besoins en energie de chaque client .</p>
         </div>
-
     </section>
     <!--section travail-->
-    <section id="travail" style="width: 1250px;height: 50px;margin-bottom: 250px;">
-        <div style="background-color: rgb(170, 106, 27);border: 1px solid green;padding: 10px;margin-top: 50px;">
+    <section id="travail" class="secT">
+        <div>
             <h1>Mes Projets</h1>
             <p>Découvrez quelques-uns de mes projets récents :</p>
             <h3>Site E-commerce</h3>
             <p>Développement d'une plateforme e-commerce complète avec système de paiement sécurisé.</p>
-            <p><strong>Technologies :</strong> React, Node.js, MongoDB</p>
+            <p><strong>Technologies :</strong> html, css, java script</p>
         </div>
-
-
     </section>
     <!--section CV-->
-    <section id="CV" style="width: 1250px;height: 50px;margin-bottom: 250px;">
-        <div style="background-color:blanchedalmond;border: 1px solid green;padding: 10px;margin-top: 50px;">
+    <section id="CV" class="secCV">
+        <div>
             <h1>Mon CV</h1>
             <table border="1">
                 <thead>
@@ -62,25 +61,12 @@
             </table>
         </div>
     </section>
-    <section id="contact" style="width: 1250px;height: 50px;">
-        <div style="background-color:burlywood;border: 1px solid green;padding: 10px;margin-top: 50px;">
-            <h1>Contact</h1>
-            <p>N'hésitez pas à me contacter pour discuter de votre projet !</p>
-            <label for="nom">Nom complet *</label>
-            <input type="text" id="nom" name="nom" required><br><br>
-            <div> <label for="email">Email *</label>
-                <input type="email" id="email" name="email" required></div><br>
-            <label for="sujet">Sujet</label>
-            <select id="sujet" name="sujet">
-                        <option value="devis">Demande de devis</option>
-                        <option value="collaboration">Proposition de collaboration</option>
-                        <option value="information">Demande d'information</option>
-                        <option value="autre">Autre</option>
-                    </select><br><br>
-            <label for="message">Message *</label>
-            <textarea id="message" name="message" placeholder="Décrivez votre projet ou votre demande..." required></textarea>
-        </div>
-
+    <section id="contact" class="secCON">
+        <h1>Contact</h1>
+        <p>N'hésitez pas à me contacter pour discuter de votre projet !</p>
+        <p>Email:moudiassallo@gmail.com</p>
+        <p>Tel: 76-810-04-42</p>
+        <textarea rows="10" cols="100%" placeholder="ecrit moi ICI"></textarea>
     </section>
 
 
